@@ -1,6 +1,8 @@
 package com.example.testJackson.jsontest.models;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sun.istack.NotNull;
 import lombok.*;
 import org.springframework.lang.Nullable;
 
@@ -20,7 +22,8 @@ public class BeerDto {
     private Integer version;
     @Nullable
     private OffsetDateTime createdDate;
-    @Nullable
+    @NotNull
+    @JsonFormat(pattern = "MM-dd-yyyy")
     private OffsetDateTime lastModified;
 
     private String beerName;
@@ -28,7 +31,7 @@ public class BeerDto {
     private String beerStyleEnum;
 
     private Long upc;
-
+@JsonFormat(shape = JsonFormat.Shape.STRING)
     private BigDecimal price;
 
     private Integer quantityOnHand;
