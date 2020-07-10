@@ -41,7 +41,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.JsonTest.deSerialization">
+  <component name="RunManager" selected="JUnit.JsonTest">
     <configuration name="JsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="json-test" />
       <extension name="coverage">
@@ -82,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JsonTest.deSerialization" />
         <item itemvalue="JUnit.JsonTest" />
+        <item itemvalue="JUnit.JsonTest.deSerialization" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594356962858</updated>
-      <workItem from="1594356964509" duration="1470000" />
+      <workItem from="1594356964509" duration="1682000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit json testing and jsonProperty annotaions">
       <created>1594357040121</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594357394525</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="little variable-name modification">
+      <created>1594358490258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594358490258</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,36 +129,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial commit json testing and jsonProperty annotaions" />
     <MESSAGE value="JsonProperty-format  annotaions added" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsonProperty-format  annotaions added" />
+    <MESSAGE value="little variable-name modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="little variable-name modification" />
   </component>
   <component name="WindowStateProjectService">
     <state x="632" y="366" key="#Notifications" timestamp="1594357071653">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state x="632" y="366" key="#Notifications/0.22.1440.878@0.22.1440.878" timestamp="1594357071653" />
-    <state x="0" y="51" key="CommitChangelistDialog2" timestamp="1594357394194">
+    <state x="0" y="51" key="CommitChangelistDialog2" timestamp="1594358489749">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state x="0" y="51" key="CommitChangelistDialog2/0.22.1440.878@0.22.1440.878" timestamp="1594357394194" />
-    <state width="1328" height="208" key="GridCell.Tab.0.bottom" timestamp="1594358139162">
+    <state x="0" y="51" key="CommitChangelistDialog2/0.22.1440.878@0.22.1440.878" timestamp="1594358489749" />
+    <state width="1328" height="208" key="GridCell.Tab.0.bottom" timestamp="1594358595875">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state width="1328" height="208" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1594358139162" />
-    <state width="1328" height="208" key="GridCell.Tab.0.center" timestamp="1594358139161">
+    <state width="1328" height="208" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1594358595875" />
+    <state width="1328" height="208" key="GridCell.Tab.0.center" timestamp="1594358595875">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state width="1328" height="208" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1594358139161" />
-    <state width="1328" height="208" key="GridCell.Tab.0.left" timestamp="1594358139161">
+    <state width="1328" height="208" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1594358595875" />
+    <state width="1328" height="208" key="GridCell.Tab.0.left" timestamp="1594358595874">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state width="1328" height="208" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1594358139161" />
-    <state width="1328" height="208" key="GridCell.Tab.0.right" timestamp="1594358139162">
+    <state width="1328" height="208" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1594358595874" />
+    <state width="1328" height="208" key="GridCell.Tab.0.right" timestamp="1594358595875">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state width="1328" height="208" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1594358139162" />
-    <state x="355" y="236" key="Vcs.Push.Dialog.v2" timestamp="1594357406352">
+    <state width="1328" height="208" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1594358595875" />
+    <state x="355" y="236" key="Vcs.Push.Dialog.v2" timestamp="1594358492866">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state x="355" y="236" key="Vcs.Push.Dialog.v2/0.22.1440.878@0.22.1440.878" timestamp="1594357406352" />
+    <state x="355" y="236" key="Vcs.Push.Dialog.v2/0.22.1440.878@0.22.1440.878" timestamp="1594358492866" />
   </component>
 </project>
