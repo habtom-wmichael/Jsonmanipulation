@@ -22,8 +22,8 @@ public class BeerDto {
     private Integer version;
     @Nullable
     private OffsetDateTime createdDate;
-    @NotNull
-    @JsonFormat(pattern = "MM-dd-yyyy")
+
+    @JsonFormat(pattern = "yyyy-MM-dd",shape = JsonFormat.Shape.STRING)
     private OffsetDateTime lastModified;
 
     private String beerName;
@@ -31,7 +31,7 @@ public class BeerDto {
     private String beerStyleEnum;
 
     private Long upc;
-@JsonFormat(shape = JsonFormat.Shape.STRING)
+  //@JsonFormat(shape = JsonFormat.Shape.STRING)
     private BigDecimal price;
 
     private Integer quantityOnHand;
