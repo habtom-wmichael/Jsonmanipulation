@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eaf9e48-c346-4e0e-9b3e-eafd1c07cfb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testJackson/jsontest/models/OffsetDateTimeSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testJackson/jsontest/models/BeerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testJackson/jsontest/models/BeerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testJackson/jsontest/models/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/testJackson/jsontest/models/JsonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/testJackson/jsontest/models/BeerDto$BeerDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/testJackson/jsontest/models/BeerDto$BeerDtoBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/testJackson/jsontest/models/BeerDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/testJackson/jsontest/models/BeerDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/testJackson/jsontest/models/JsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/testJackson/jsontest/models/JsonTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -21,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1eTsYCEtgYZxntqjpdhxMs1elsV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,6 +52,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.testJackson.jsontest.models" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.JsonTest">
     <configuration name="JsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -72,6 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonTest.serialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="json-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.testJackson.jsontest.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.testJackson.jsontest.models" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testJackson.jsontest.models.JsonTest" />
+      <option name="METHOD_NAME" value="serialize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="json-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testJackson.jsontest.JsonTestApplication" />
@@ -83,6 +117,7 @@
       <list>
         <item itemvalue="JUnit.JsonTest" />
         <item itemvalue="JUnit.JsonTest.deSerialization" />
+        <item itemvalue="JUnit.JsonTest.serialize" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594356962858</updated>
-      <workItem from="1594356964509" duration="1813000" />
+      <workItem from="1594356964509" duration="3455000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit json testing and jsonProperty annotaions">
       <created>1594357040121</created>
@@ -126,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594358684751</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="little variable-name modification">
+      <created>1594358805265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594358805265</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,29 +185,37 @@
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state x="632" y="366" key="#Notifications/0.22.1440.878@0.22.1440.878" timestamp="1594357071653" />
-    <state x="0" y="51" key="CommitChangelistDialog2" timestamp="1594358684373">
+    <state x="568" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1594359497351">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state x="0" y="51" key="CommitChangelistDialog2/0.22.1440.878@0.22.1440.878" timestamp="1594358684373" />
-    <state width="1328" height="208" key="GridCell.Tab.0.bottom" timestamp="1594358769199">
+    <state x="568" y="209" key="#com.intellij.ide.util.MemberChooser/0.22.1440.878@0.22.1440.878" timestamp="1594359497351" />
+    <state x="477" y="372" width="556" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594359720576">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state width="1328" height="208" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1594358769199" />
-    <state width="1328" height="208" key="GridCell.Tab.0.center" timestamp="1594358769199">
+    <state x="477" y="372" width="556" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.22.1440.878@0.22.1440.878" timestamp="1594359720576" />
+    <state x="0" y="51" key="CommitChangelistDialog2" timestamp="1594358804924">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state width="1328" height="208" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1594358769199" />
-    <state width="1328" height="208" key="GridCell.Tab.0.left" timestamp="1594358769198">
+    <state x="0" y="51" key="CommitChangelistDialog2/0.22.1440.878@0.22.1440.878" timestamp="1594358804924" />
+    <state width="1328" height="208" key="GridCell.Tab.0.bottom" timestamp="1594360362038">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state width="1328" height="208" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1594358769198" />
-    <state width="1328" height="208" key="GridCell.Tab.0.right" timestamp="1594358769199">
+    <state width="1328" height="208" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1594360362038" />
+    <state width="1328" height="208" key="GridCell.Tab.0.center" timestamp="1594360362036">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state width="1328" height="208" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1594358769199" />
-    <state x="355" y="236" key="Vcs.Push.Dialog.v2" timestamp="1594358686694">
+    <state width="1328" height="208" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1594360362036" />
+    <state width="1328" height="208" key="GridCell.Tab.0.left" timestamp="1594360362036">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state x="355" y="236" key="Vcs.Push.Dialog.v2/0.22.1440.878@0.22.1440.878" timestamp="1594358686694" />
+    <state width="1328" height="208" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1594360362036" />
+    <state width="1328" height="208" key="GridCell.Tab.0.right" timestamp="1594360362037">
+      <screen x="0" y="22" width="1440" height="878" />
+    </state>
+    <state width="1328" height="208" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1594360362037" />
+    <state x="355" y="236" key="Vcs.Push.Dialog.v2" timestamp="1594358807500">
+      <screen x="0" y="22" width="1440" height="878" />
+    </state>
+    <state x="355" y="236" key="Vcs.Push.Dialog.v2/0.22.1440.878@0.22.1440.878" timestamp="1594358807500" />
   </component>
 </project>
