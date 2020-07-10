@@ -20,7 +20,7 @@ public class BeerDto {
     private UUID id;
     @Nullable
     private Integer version;
-    @JsonFormat(pattern = "yyyy-MM-dd",shape = JsonFormat.Shape.STRING)
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
     private OffsetDateTime createdDate;
 
    @NonNull
